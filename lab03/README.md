@@ -7,7 +7,7 @@
 
 ## Modelo Conceitual ER Revisado
 
-<img src="images/ER.png" width="400px" height="auto">
+<img src="Images/ER.jpeg" width="400px" height="auto">
 
 *Diagrama ER original;*
 
