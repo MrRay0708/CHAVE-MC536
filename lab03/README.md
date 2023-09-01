@@ -7,29 +7,22 @@
 
 ## Modelo Conceitual ER Revisado
 
-> Coloque aqui o diagrama entidade-relacionamento original ou revisado para transformação em modelo relacional. O diagrama deve atributos, cardinalidade e entidades fracas.
->
-> Indique abaixo do diagrama (como no exemplo), se é o original ou o revisado.
->
-> Não é necessário colocar o diagrama UML revisado.
+<img src="images/ER.png" width="400px" height="auto">
 
-<img src="images/ER.jpeg" width="400px" height="auto">
-
-*Diagrama ER origina;*
+*Diagrama ER original;*
 
 ## Mapeamento para o Modelo Relacional
 
-> Coloque aqui o modelo relacional que mapeia o modelo ER (original ou revisado). Nesse modelo deve constar o esquema das relações, com as chaves primárias e estrangeiras. A especificação de tipos de atributos é opcional.
-
-> Exemplo de modelo lógico relacional
 ~~~
-INGREDIENTE(_Nome_, Nutrientes)
-  Ocupante chave estrangeira -> PRATO(Indredientes)
-PRATO(_Nome_, Indredientes, Popularidade)
-  Indrediente chave estrangeira -> INGREDIENTE(Nome)
-CARDÁPIO(_Período_, Data, PerfilNutricional, Prato)
+NUTRIENTES(_Nome_, Funcao)
+INGREDIENTE(_Nome_, PerfilNutricional, Origem)
+  PerfilNutricional chave estrangeira -> NUTRIENTE(Nome)
+PRATO(_Nome_, Composicao, ValorNutriocional)
+  ValorNutriocional chave estrangeira -> NUTRIENTE(Nome)
+  Composicao chave estrangeira -> Ingrediente(Nome)
+CARDÁPIO(_Período_, _Data_, Dieta, Prato)
   Prato chave estrangeira -> PRATO(Nome)
-Aluno(_Nome_, consome, compoe)
-  consome chave estrangeira -> PRATO(Nome)
-  compoe chave estrangeira -> INGREDIENTE(Nome)
+ALUNO(_Nome_, Consome, Absorve)
+  Consome chave estrangeira -> PRATO(Nome)
+  Absorve chave estrangeira -> INGREDIENTE(Nome)
 ~~~
