@@ -13,7 +13,7 @@
 >
 > Não é necessário colocar o diagrama UML revisado.
 
-<img src="images/ER_Diagram_MMORPG.png" width="400px" height="auto">
+<img src="images/ER.png" width="400px" height="auto">
 
 *Diagrama ER origina;*
 
