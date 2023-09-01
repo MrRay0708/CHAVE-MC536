@@ -9,7 +9,7 @@
 
 <img src="Images/ER.jpeg" width="400px" height="auto">
 
-*Diagrama ER original;*
+*Diagrama ER revisado;*
 
 ## Mapeamento para o Modelo Relacional
 
