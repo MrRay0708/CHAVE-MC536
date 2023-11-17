@@ -183,6 +183,9 @@ Que tipo de análise interessante pode ser feita com esse grafo?
 Proponha um tipo de análise e escreva uma sentença em Cypher que realize a análise.
 
 ### Resolução
+
+#Buscamos as relações que tenham mais de 450 ocorrências entre droga e efeito colateral
+
 ~~~cypher
 MATCH (d)-[t:CausaEfeitoColateral]->(p)
 WHERE t.weight > 450
