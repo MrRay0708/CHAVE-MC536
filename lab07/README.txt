@@ -1,7 +1,7 @@
 # Lab.07
 
 ![Modelo lógico]
-(https://github.com/MrRay0708/MC536-CHAVE/labo7.png)
+(https://github.com/MrRay0708/MC536-CHAVE/lab07/lab07.png)
 
 ![Perguntas]
 *1) Quais receitas tem mais ingredientes em comum?
