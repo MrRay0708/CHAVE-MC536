@@ -4,5 +4,5 @@
 
 ## Perguntas
 * Quais receitas tem mais ingredientes em comum?
-* Em quantas receitas aparece tal ingrediente?
+* Em quantas receitas aparece tal ingrediente com devido modo de preparo?
 * Quantas variações tem uma tal receita?
